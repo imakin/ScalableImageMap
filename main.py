@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#poligon scaling error is to be fixed
 data = '<area shape="poly" coords="218,238,196,270,326,354,419,296,417,299,392,290,389,290,338,274,337,274" onmouseover="onJazzExh" href="#gd_even_details" />'
 angka = data[data.find("coords=\"")+len("coords=\""):][:data[data.find("coords=\"")+len("coords=\""):].find("\"")]
 
